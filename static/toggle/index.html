@@ -1,7 +1,7 @@
 <html>
     <head>
-        <title><%= title %></title>
-        <script type="application/javascript" src="<%= src %>"></script>
+        <title>Rx - Patterns | toggle</title>
+        <script type="application/javascript" src="./js/index.js"></script>
     </head>
     <style>
         body {
@@ -17,14 +17,19 @@
             height: 100%;
         }
 
-        <%= css %>
+        .highlighter {
+    width: 20px;
+    height: 20px;
+    background-color: #FF0000;
+    position: relative;
+}
     </style>
     <body>
         <div class="content">
-            <%= html %>
+            <div class='highlighter'></div>
         </div>
         <script type="application/javascript">
-            <%= script %>
+            
         </script>
     </body>
 </html>

@@ -26,6 +26,7 @@
   "devDependencies": {
     "lodash": "~2.4.1",
     "jquery-browserify": "~1.8.1",
-    "grunt": "~0.4.5"
+    "grunt": "~0.4.5",
+    "grunt-clean": "~0.4.0"
   }
 }
